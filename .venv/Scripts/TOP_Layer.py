@@ -7,17 +7,18 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt, QStandardPaths
-from Scripts.Indexes1 import ExG
-from Scripts.Indexes1 import ExGR
-from Scripts.Indexes1 import GLI
-from Scripts.Indexes1 import PNDVI
-from Scripts.Indexes1 import VARI
-from Scripts.Indexes1 import NGRDI
-from Scripts.Indexes1 import TGI
-from Scripts.Indexes1 import CLASIFICARE
+from Indexes1 import (ExG, ExGR, GLI, PNDVI, VARI,NGRDI, TGI, CLASIFICARE, Medii, Histograma)
+#from Scripts.Indexes1 import ExG
+#from Scripts.Indexes1 import ExGR
+#from Scripts.Indexes1 import GLI
+#from Scripts.Indexes1 import PNDVI
+#from Scripts.Indexes1 import VARI
+#from Scripts.Indexes1 import NGRDI
+#from Scripts.Indexes1 import TGI
+#from Scripts.Indexes1 import CLASIFICARE
 import tkinter as tk
-from Scripts.Indexes1 import Medii
-from Scripts.Indexes1 import Histograma
+#from Scripts.Indexes1 import Medii
+#from Scripts.Indexes1 import Histograma
 
 class ImageWindow(QWidget):
     """
